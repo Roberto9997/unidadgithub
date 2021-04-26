@@ -10,9 +10,8 @@ public class principal  {
 		// TODO Auto-generated method stub
 		JFrame frame = new JFrame("juego covid");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		
-		frame.getContentPane().add(new imagen());
-		
+	
+		frame.getContentPane().add(new movimiento());
 		frame.pack();
 		frame.setVisible(true);
 		
